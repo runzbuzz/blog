@@ -7,3 +7,20 @@ author:
   email: ""
   url: "https://consulting.runzbuzz.com"
 keywords: [AI, Artificial Intelligence, Data Science, Machine Learning, Blog]
+
+
+
+#SEO
+twitter:
+  username: runzbuzz
+  card: summary
+facebook:
+  app_id: 
+logo: /assets/img/runzbuzz.png
+social:
+  name: Runzbuzz
+  links:
+    - https://github.com/runzbuzz
+    - https://x.com/runzbuzz
+    - https://www.linkedin.com/in/ahmadalobaid/
+lang: en
