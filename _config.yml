@@ -1,3 +1,9 @@
 title: "Runzbuzz"
 description: "A tech blog about Artificial Intelligence and Business stuff"
 remote_theme: runzbuzz/blog-theme@master
+
+author:
+  name: "Ahmad Alobaid"
+  email: ""
+  url: "https://consulting.runzbuzz.com"
+keywords: [AI, Artificial Intelligence, Data Science, Machine Learning, Blog]
