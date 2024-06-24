@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 description: There goes the description of our post here.
 author: Jen Doe
 length: 3
+cover: sample.png
 ---
 
 # Welcome
