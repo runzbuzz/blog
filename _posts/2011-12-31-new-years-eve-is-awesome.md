@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+description: There goes the description of our post here.
 ---
 
 # Welcome
