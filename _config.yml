@@ -14,6 +14,11 @@ company:
   url: "https://consulting.runzbuzz.com"
 
 
+#Pagination
+paginate: 5
+paginate_path: "/page-:num/"
+
+
 #SEO
 twitter:
   username: runzbuzz
