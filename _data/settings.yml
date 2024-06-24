@@ -2,7 +2,7 @@
 #Pages
 pages:
   - {name: 'categories', link: 'categories'}
-  - {name: 'about', link: 'about.html'}
+  - {name: 'about', link: 'about'}
 #  - {name: 'Patreon', link: '#'}
 #  - {name: 'Shop', link: '#'}
 #  - {name: 'GitHub', link: 'https://github.com/PandaSekh'}
