@@ -10,8 +10,9 @@ pages:
 
 social:
   - {icon: 'instagram', type: "brand", link: 'https://www.instagram.com/runzbuzz/'}
-  - {icon: 'twitter', type: "brand", link: 'https://www.x.com/runzbuzz'}
+  - {icon: 'x-twitter', type: "brand", link: 'https://www.x.com/runzbuzz'}
   - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/company/4816289/'}
+#  - {icon: 'twitter', type: "brand", link: 'https://www.x.com/runzbuzz'}
 #  - {icon: 'facebook', type: "brand", link: '#'}
 #  - {icon: 'youtube', type: "brand", link: '#'}  
 #  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
