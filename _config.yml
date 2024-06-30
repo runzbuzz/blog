@@ -14,14 +14,19 @@ company:
   url: "https://consulting.runzbuzz.com"
 
 
-#Plugins
+# Plugins
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
 
-#Pagination
+# Pagination
 paginate: 5
 paginate_path: "/page-:num/"
 
+# Beautiful Post URL
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name
 
 #SEO
 twitter:
