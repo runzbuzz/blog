@@ -23,11 +23,6 @@ plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 paginate: 5
 paginate_path: "/page-:num/"
 
-# Beautiful Post URL
-collections:
-  my_collection:
-    output: true
-    permalink: /:collection/:name
 
 #SEO
 twitter:
