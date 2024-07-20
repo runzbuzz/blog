@@ -4,7 +4,7 @@ remote_theme: runzbuzz/blog-theme@master
 #permalink: pretty
 permalink: /posts/:title
 
-url: ""
+url: "https://blog.runzbuzz.com"
 
 author:
   name: "Ahmad Alobaid"
