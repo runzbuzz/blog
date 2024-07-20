@@ -14,14 +14,12 @@ toc: true
 As the adoption of Artificial Intelligence (AI) increased and its benefits took the companies and organization by a storm, some started using it without fully understanding what was going on (or basically ignoring their inner voice). This is not about having AI robots knocking on the door terminator-style. This is something actually happening, which snuck into the day-to-day activities.
 
 
-
 <br>
-
 
 
 # Is AI rejecting you? 
 
-<img src='{{"/assets/forposts/ai-reject.webp", | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem;" >
+<img src='{{"/assets/forposts/ai-reject.webp", | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
 
 
 Have you once gone to a bank to get a loan? They do a [risk assessment](https://en.wikipedia.org/wiki/Credit_risk) before making a decision. Basically, they try to predict whether you will be able to pay the loan back plus the interest. Have you been to a bank to get a credit card, and they asked for a deposit? Most probably because they do not think that you will be able to pay it back.
@@ -29,7 +27,6 @@ Have you once gone to a bank to get a loan? They do a [risk assessment](https:/
 
 <br>
 Have you gone to get insurance, and the price was ridiculously high? Or worse, they even refused to provide you with one? Just because you were born with some unfortunate health condition? [More about that here](https://www.reuters.com/article/business/healthcare-pharmaceuticals/genetic-conditions-often-lead-to-insurance-refusal-idUSCOL575585/)
-
 
 
 
@@ -41,11 +38,11 @@ How about applying for a job and never getting a callback even though you are th
 <br> 
  Amazon used an AI hiring system, but it turned out to be problematic; it was "sexist", as described by the [BBC](https://www.bbc.com/news/technology-45809919). It preferred male candidates to female candidates and would penalize resumes that mention women’s clubs. There is a scientific explanation for that, and it is easy to understand. The AI system was most likely using historical data to learn and optimize for the best results. Below, we explain how that can happen without actually meaning to be sexist (or biased).
 
+
  
 # Why it is doing so?
 
 <img src='{{"/assets/forposts/resume-piles.webp", | relative_url }}' style="float: right; margin-left: 1rem; height: 20rem; width: 20rem;" >
-
 
 
 Let us imagine that we provided the AI system with two piles of resumes: one with the good ones and another with the bad ones. The AI system would "study" those resumes and develop theories or ideas about what constitutes a good resume and what makes a resume bad (or unfit for the position).
@@ -53,7 +50,6 @@ Let us imagine that we provided the AI system with two piles of resumes: one wit
 <br>
 
 It is important to emphasize that whatever rules or knowledge the AI "learned" does not necessarily have to [make sense](https://towardsdatascience.com/irrational-ai-6f0b6d25af8f). For example, it may "learn" that resumes that use *Arial* font are better (more fit to hire) than resumes written in *Times New Roman* (both are used in the [resume template](https://capd.mit.edu/blog/2023/09/01/enhance-your-resume-a-guide-for-first-year-undergraduates/) by MIT). We can agree that using one or the other has no relation to whether the resume is good or bad.
-
 
 <br>
 
@@ -73,17 +69,13 @@ There are [ways](https://hbr.org/2017/06/7-practical-ways-to-reduce-bias-in-you
 <br>
 
 
-
 # How to protect yourself?
 
 **Awareness**. According to a survey done by [paw research](https://www.pewresearch.org/science/2023/02/15/public-awareness-of-artificial-intelligence-in-everyday-activities/), around 44% of people think they do not regularly interact with AI. Being aware of the employment of such systems and how they are being used might help us eliminate or reduce the possible negative outcomes. There is no one easy magical thing that people can do to protect themselves against AI as individuals (at least, practically).
 
-
 <br>
 
 However, awareness can be helpful on a case-by-case basis. People can change their behavior to maximize the likelihood of a positive outcome. So, if we are talking about the hiring process, people can do certain things to be more "hireable" for an AI system. Using certain (or the "correct") [keywords](https://www.alifeafterlayoff.com/keywords-on-your-resume-dont-work/) might improve your chances. Some people also tried gaming such systems by using a technique called *keyword stuffing*, which is adding keywords to the resume to trick the system into ranking your resume higher. [LinkedIn](https://www.linkedin.com/advice/0/what-risks-keyword-stuffing-your-resume-skills-resume-writing-fzlzc) and [others](https://www.alifeafterlayoff.com/keywords-on-your-resume-dont-work/) claim that it also has a negative effect. Regardless, being aware of such techniques and how AI reacts to them can empower us to make the best out of this situation.
-
-
 
 <br>
 
