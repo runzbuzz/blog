@@ -11,7 +11,6 @@ toc: true
 
 
 
-
 As the adoption of Artificial Intelligence (AI) increased and its benefits took the companies and organization by a storm, some started using it without fully understanding what was going on (or basically ignoring their inner voice). This is not about having AI robots knocking on the door terminator-style. This is something actually happening, which snuck into the day-to-day activities.
 
 
