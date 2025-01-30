@@ -5,7 +5,7 @@ description: Report my experience of using both DeepSeek and ChatGPT for explain
 author: Ahmad Alobaid
 length: 2
 categories: ["AI", "LLMs",]
-cover: 
+cover: deepseek-vs-chatgpt.png
 toc: true
 ---
 
