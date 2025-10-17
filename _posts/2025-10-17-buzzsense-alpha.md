@@ -23,8 +23,10 @@ I basically stumbled on the idea for buzzsense.ai during a conversation with a s
 # What I am building 
 I am building a platform to help brands measure and improve their visibility in AI systems (e.g., ChatGPT, Gemini, etc.). The term used to describe this is GEO, which stands for Generative Engine Optimization. It is just like SEO (Search Engine Optimization) but for the world of AI assistants and chatbots. 
 
+<br>
 The value proposition here is to help companies track their visibility over time in AI assistants. Obviously, I will be focusing on the local market of Kuwait as a starting point, and that is what I started testing.
 
+<br><br>
 I conducted tests on local companies in Kuwait, which I know, to assess the validity of buzzsense.ai. And then I did it for Runzbuzz (my startup).
  To my surprise, I found other startups (competitors) to those local companies and even to Runzbuzz that I didn't even know about, despite my googling. 
 
