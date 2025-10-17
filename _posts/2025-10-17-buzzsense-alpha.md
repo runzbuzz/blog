@@ -7,6 +7,7 @@ description: "This is the first post in a series documenting my journey of build
 author: Ahmad Alobaid
 length: 3
 cover: man-laptop-blue-innovation.png
+toc: true
 ---
 
 
