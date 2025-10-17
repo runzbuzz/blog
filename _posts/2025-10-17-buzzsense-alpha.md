@@ -16,8 +16,9 @@ toc: true
 My name is Ahmad Alobaid. I have two masters in AI and a PhD also in AI. After working at different universities as a lecturer and researcher in AI, I went to the private sector for an AI company focused on AI and cybersecurity. I did pretty well and developed a jailbreak that made headlines with more than 20 million views in a single month for the blog post I wrote for the company. 
 
 
+<p>
 I basically stumbled on the idea for buzzsense.ai during a conversation with a smart guy in Germany a smart guy in Germany, and the light bulb went on about how a brand or business could track their performance on AI systems like ChatGPT and Gemini. I believed so much in this idea that I booked a flight and came back to Kuwait to build it.
-
+</p>
 
 # What I am building 
 I am building a platform to help brands measure and improve their visibility in AI systems (e.g., ChatGPT, Gemini, etc.). The term used to describe this is GEO, which stands for Generative Engine Optimization. It is just like SEO (Search Engine Optimization) but for the world of AI assistants and chatbots. 
