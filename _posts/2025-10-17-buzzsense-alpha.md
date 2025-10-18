@@ -11,7 +11,6 @@ toc: true
 ---
 
 
-
 # Who I am 
 My name is Ahmad Alobaid. I have two masters in AI and a PhD also in AI. After working at different universities as a lecturer and researcher in AI, I went to the private sector for an AI company focused on AI and cybersecurity. I did pretty well and developed a jailbreak that made headlines with more than 20 million views in a single month for the blog post I wrote for the company. 
 
