@@ -58,8 +58,6 @@ Hallucination is a known issue in AI assistants (in Language Models, to be exact
 
 # Impact
 These bugs cost me a few days of work, from identifying the bugs to implementing the fixes. 
-
-<br>
 Now, the beta version feels like a real beta, with the crisp results and cleaner charts. The numbers now make much more sense, especially after addressing the hallucination of the AI systems. 
 
 <br>
