@@ -2,15 +2,13 @@
 layout: post
 title: "GEO: The New SEO in the Age of AI Assistants"
 categories: [Generative Engine Optimization,]
-description: "Do your brands come up when people ask ChatGPT or Gemini for products or services like yours? Is your brand getting ignored? This new field, called Generative Engine Optimization (GEO), focuses on optimizing your content so it's suggested by different AI Assistants. We cover what GEO is and what to expect from GEO platforms like buzzsense.ai. We present different use cases and an example of tracking visibility on GEO platforms. "
+description: "Do your brands come up when people ask ChatGPT or Gemini for products or services like yours? Is your brand getting ignored? This new field, called Generative Engine Optimization (GEO), focuses on optimizing your content so it's suggested by different AI Assistants. We cover what GEO is and what to expect from GEO platforms like buzzsense.ai. We present different use cases and an example of tracking visibility on GEO platforms."
 author: Ahmad Alobaid
 length: 3
 cover: SEO-vs-GEO-Race.png
 toc: true
 ---
 
-# Summary
-Does your brands shows when people search for relevant products and services on ChatGPT and Gemini? Is your brand getting ignored? This new area is called GEO, which is about optimizing your content to be suggested by different AI Assistants. We cover what is GEO and what to expected when using GEO platforms (e.g., buzzsense.ai). We show different use cases and show an example on tracking the visibility on GEO. 
 
 # What is GEO
 How well your brand "ranks" or shows in AI results. When someone asks ChatGPT or Gemini for the best sushi restaurant in town, does it recommend your sushi restaurants? Does it provide positive or negative feedback about your service? 
