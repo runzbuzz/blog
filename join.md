@@ -9,8 +9,7 @@ title: Join Runzbuzz Newsletter
 <style>
   #sib-container input:-ms-input-placeholder {
     text-align: left;
-    font-family:     font-family: 'Karla', sans-serif;
-
+    font-family: font-family: 'Karla', sans-serif;
     color: #c0ccda;
   }
 
