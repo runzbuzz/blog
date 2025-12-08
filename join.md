@@ -4,13 +4,9 @@ permalink: /join
 title: Join Runzbuzz Newsletter
 ---
 
-
-
 <!-- Begin Brevo Form -->
 <!-- START - We recommend to place the below code in head tag of your website html  -->
 <style>
-
-
   #sib-container input:-ms-input-placeholder {
     text-align: left;
     font-family:     font-family: 'Karla', sans-serif;
