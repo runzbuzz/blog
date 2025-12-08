@@ -15,5 +15,5 @@ social:
 #  - {icon: 'twitter', type: "brand", link: 'https://www.x.com/runzbuzz'}
 #  - {icon: 'facebook', type: "brand", link: '#'}
 #  - {icon: 'youtube', type: "brand", link: '#'}  
-  - {icon: 'envelope', type: "solid", link: 'https://22eaadd7.sibforms.com/serve/MUIFAIStZsJWzCogW8cuOdUzN6zZtxUPsyzn2vxKD5WJJDtNUpWpgASJdGHwN9v-1gDqX_hSA6GrFU8auEsFgpibCCs9fzBhFJRPDkjlYHW6pP8QabgiMaxtxe1z4NuaOP4eXDUAWU6VNdOeSzTtqYJR8dmLQlqBBvKb-pU5yhR_yZZAfNctQ7y1OIKAVaMQYB1IV38h5uXZto9t5w=='}
+  - {icon: 'envelope', type: "solid", link: '/join'}
 #  - {icon: 'rss', type: "solid", link: "#"}
