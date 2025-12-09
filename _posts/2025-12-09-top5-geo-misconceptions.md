@@ -16,16 +16,6 @@ toc: true
 <img src='{{"/assets/forposts/top-5-geo-misconceptions/ai-agents.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 
-<!--
-
-<img src='{{"/assets/forposts/top-5-geo-misconceptions/ai-agents.png", | relative_url }}' style="float: left; margin-right: 1rem; max-height: 19rem; max-width: 19rem; " >
-
-
-
-
-
--->
-
 
 It is about showing in AI search results like ChatGPT, Gemini, Claude, ... Imagine a brand specializing in running shoes that wants to know whether AI assistants are recommending its shoes to people searching for running shoes. More specifically, they would like to know the frequency with which their shoes are shown in AI search results. 
 
@@ -99,7 +89,7 @@ Different search engines offer different <a href="https://webmaster.yandex.com/w
 
 <br>
 
-However, they are more likely to show if these recommendations are followed. There is also a correlation between a web page's utility and its ranking. So web pages that people find useful are more likely to rank than others, which are just a bunch of words (e.g., keyword stuffing (https://developers.google.com/search/docs/essentials/spam-policies#keyword-stuffing)).
+However, they are more likely to show if these recommendations are followed. There is also a correlation between a web page's utility and its ranking. So web pages that people find useful are more likely to rank than others, which are just a bunch of words (e.g., <a href="https://developers.google.com/search/docs/essentials/spam-policies#keyword-stuffing">keyword stuffing</a>).
 
 
 
