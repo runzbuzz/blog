@@ -3,7 +3,7 @@ layout: post
 title: "GEO: The New SEO in the Age of AI Assistants"
 categories: [Generative Engine Optimization,]
 description: "Do your brands come up when people ask ChatGPT or Gemini for products or services like yours? Is your brand getting ignored? This new field, called Generative Engine Optimization (GEO), focuses on optimizing your content so it's suggested by different AI Assistants. We cover what GEO is and what to expect from GEO platforms like buzzsense.ai. We present different use cases and an example of tracking visibility on GEO platforms."
-author: Ahmad Alobaid
+author: aalobaid
 length: 3
 cover: SEO-vs-GEO-Race.png
 toc: true

@@ -2,7 +2,7 @@
 layout: post
 title:  "AI Can Reject YOU!"
 description: AI can literally reject you and there is nothing that you can do about it. And yes, it is going to affect you more than you think. 
-author: Ahmad Alobaid
+author: aalobaid
 length: 5
 categories: ["AI", "Ethics"]
 cover: ai-reject.webp

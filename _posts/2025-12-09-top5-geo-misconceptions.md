@@ -3,7 +3,7 @@ layout: post
 title: "Top 5 SEO and GEO Misconceptions"
 categories: [GEO, SEO, LLM]
 description: "With the increased use of GenAI and AI assistants like ChatGPT and Gemini, many companies and startups are looking to show in AI assistants’ search results. Despite the increase in guides on how to rank high and show in search results (SEO and GEO), many misconceptions are circulating on the Web. We show the top 5 misconceptions: 1) AI assistants' results are offline; 2) GEO is SEO; 3) You need months to show in search results; 4) E-E-A-T is used to rank your content; 5) Duplicate content gets a penalty."
-author: Ahmad Alobaid
+author: aalobaid
 length: 3
 cover: top-5-geo-misconceptions/ai-agents.png
 toc: true

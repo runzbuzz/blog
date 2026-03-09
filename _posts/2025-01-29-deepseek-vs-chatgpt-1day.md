@@ -2,7 +2,7 @@
 layout: post
 title:  "DeepSeek vs ChatGPT 1 day study"
 description: Report my experience of using both DeepSeek and ChatGPT for explaining statistical concepts over the course of a day. I tested both models by asking for clarifications on various topics and engaging in discussions using identical prompts. While their responses were similar, I observed key differences in speed, conciseness, and feedback style. This post highlights those distinctions and explores which model might be better suited for different learning preferences.
-author: Ahmad Alobaid
+author: aalobaid
 length: 2
 categories: ["AI", "LLMs",]
 cover: deepseek-vs-chatgpt.png

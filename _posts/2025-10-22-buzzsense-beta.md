@@ -4,7 +4,7 @@ title: "Taking BuzzSense.ai from Alpha to Beta: One Bug at a Time"
 categories: [BuzzSense.ai, Startup, Founder Journey, Generative Engine Optimization, Unit Test]
 description: "In this post, I discuss the progression of buzzsense.ai from the alpha version to the beta version, along with the challenges faced along the way. Two major bugs related to competitor visibility have been discovered and reported. 
 The first is a mathematical bug related to the way the visibility is computed, and the second one is related to the optimization routine. Finally, I address the hallucinations of the different AI assistants and communicate the impact of these challenges in the beta version."
-author: Ahmad Alobaid
+author: aalobaid
 length: 3
 cover: buzzsense-ai-beta-innovation.png
 toc: true

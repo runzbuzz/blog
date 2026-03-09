@@ -3,7 +3,7 @@ layout: post
 title: "AI Ad Gateway: A Proof-of-Concept for Injecting Sponsored Content into LLM Responses"
 categories: [AI Ad Gateway, Ads, AI, LLM]
 description: "Due to the high cost of training language models and serving AI Assistants, advertisements might be joining the AI party. There are many ways ads can be served and adapted for AI assistants. One of them is injecting sponsored material into AI responses via the AI Ad Gateway, a specialized gateway that handles ad injection without affecting other components. We show a proof-of-concept implementation. "
-author: Ahmad Alobaid
+author: aalobaid
 length: 6
 cover: ai-ad-gateway-poc/ad-banner-split.png
 toc: true

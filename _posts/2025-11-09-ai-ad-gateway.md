@@ -3,7 +3,7 @@ layout: post
 title: "AI Ad Gateway to integrate advertisements in AI assistants and agents."
 categories: [AI Ad Gateway, Ads, AI, LLM]
 description: "Building and training language models is very expensive. Many language model providers are still burning cash, as user subscriptions are not enough to cover expenses. That is why one possible way language model providers (AI assistants) might choose to go is through the advertising route. This can be achieved via AI Ad Gateway. In this post, we discuss different ways to advertise in AI assistants and agents."
-author: Ahmad Alobaid
+author: aalobaid
 length: 3
 cover: ai-ad-gateway/sponsored.png
 toc: true

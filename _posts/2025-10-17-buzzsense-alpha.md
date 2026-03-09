@@ -4,7 +4,7 @@ title: "From Idea to Alpha: Building BuzzSense.ai as a Solo Founder"
 categories: [BuzzSense.ai, Startup, Founder Journey, Generative Engine Optimization]
 description: "This is the first post in a series documenting my journey of building buzzsense.ai. Today, people use ChatGPT or Gemini to search for information, partially replacing search engines like Google and Bing. The problem is that businesses don't know how their brands are doing in these AI systems. That is why I am building buzzsense.ai, a platform to help businesses track and improve their visibility in AI chatbots and assistants. I am still in the early stages, and this week I finished the alpha version of the platform. In this post, I share the journey so far with the lessons I've learned along the way.
 "
-author: Ahmad Alobaid
+author: aalobaid
 length: 3
 cover: man-laptop-blue-innovation.png
 toc: true
