@@ -73,9 +73,6 @@ competitors appear most frequently, and what sources are influencing those answe
 <img src='{{"/assets/forposts/why-ai-brand-visibility/bubble.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 
-<!--
-<img src='{{"/assets/forposts/why-ai-brand-visibility/bubble.png", | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
--->
 
 Manual AI brand monitoring is difficult. Responses change constantly and results can vary across
 different AI models. That’s why AI brand intelligence platforms like [BuzzSense](https://www.buzzsense.ai/?utm_source=runzbuzz) exist, helping
