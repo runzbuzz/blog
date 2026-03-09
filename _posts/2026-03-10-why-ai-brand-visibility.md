@@ -38,7 +38,7 @@ competitors show up instead.
 
 # The Rise of AI Brand Visibility
 
-<img src='{{"/assets/forposts/why-ai-brand-visibility/futuristic-data.png", | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
+<img src='{{"/assets/forposts/why-ai-brand-visibility/futuristic-data.png" | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
 
 
 When AI assistants choose brands, they don’t do so randomly. Their responses reflect patterns
@@ -58,7 +58,7 @@ This is what teams worldwide are increasingly describing as AI brand visibility 
 
 # Why Marketers Need AI Brand Monitoring
 
-<img src='{{"/assets/forposts/why-ai-brand-visibility/charts.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/why-ai-brand-visibility/charts.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 Ranking well in traditional search engines does not automatically mean the same for AI platforms,
 which can recommend completely different companies depending on what sources they’re
@@ -70,7 +70,7 @@ competitors appear most frequently, and what sources are influencing those answe
 
 # Turning AI Answers Into Actionable Data
 
-<img src='{{"/assets/forposts/why-ai-brand-visibility/bubble.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/why-ai-brand-visibility/bubble.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 
 

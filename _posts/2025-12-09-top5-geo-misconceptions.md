@@ -13,7 +13,7 @@ toc: true
 
 # What and Why Generative Engine Optimization?
 
-<img src='{{"/assets/forposts/top-5-geo-misconceptions/ai-agents.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/top-5-geo-misconceptions/ai-agents.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 
 
@@ -63,7 +63,7 @@ Once the AI assistant receives the request, it searches the web for pages relate
 # Misconception 2: GEO is just SEO
 
 
-<img src='{{"/assets/forposts/top-5-geo-misconceptions/seo-vs-geo.png", | relative_url }}' style="float: left; margin-right: 1rem; max-height: 19rem; max-width: 19rem; " >
+<img src='{{"/assets/forposts/top-5-geo-misconceptions/seo-vs-geo.png" | relative_url }}' style="float: left; margin-right: 1rem; max-height: 19rem; max-width: 19rem; " >
 
 SEO stands for Search Engine Optimization. It is about practices to potentially improve rankings in search engine results, such as Google, Bing, Yandex, and DuckDuckGo. 
 
@@ -109,7 +109,7 @@ Not at all. E-E-A-T is short for experience, expertise, authoritativeness, and t
 
 
 
-<img src='{{"/assets/forposts/top-5-geo-misconceptions/ai-search.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/top-5-geo-misconceptions/ai-search.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 
 You probably, like me, have heard it before: some people in SEO told me not to cross-post content across multiple pages on the same website because Google would penalize your content/website. This turned out to be false. Google would pick one and treat it as the canonical version (the main one to index). 

@@ -21,7 +21,7 @@ AI Ad Gateway is a way to incorporate advertisements into AI agents and assistan
 # Advertisements Categories
 
 
-<img src='{{"/assets/forposts/ai-ad-gateway/sponsored.png", | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
+<img src='{{"/assets/forposts/ai-ad-gateway/sponsored.png" | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
 
 There are many ways to categorize ads, but AI assistants and agents have the advantage of existing embeddings. This means that it is straightforward to find relevant ads. But that is when relevance relates to the topic the user is engaging with the LLM about, not necessarily the user's profile. So in that regard, we categorize them as follows: 
 
@@ -125,7 +125,7 @@ Note that taking prompt relevance into account might include unrelated topics, s
 
 # GEO and Ads
 
-<img src='{{"/assets/forposts/ai-ad-gateway/geo.png", | relative_url }}' style="float: right; margin-left: 0.05rem; max-height: 25rem; max-width: 25rem;" >
+<img src='{{"/assets/forposts/ai-ad-gateway/geo.png" | relative_url }}' style="float: right; margin-left: 0.05rem; max-height: 25rem; max-width: 25rem;" >
 
 This is one of the concerns GEO (Generative Engine Optimization) platforms might have when ads are injected into responses without providing any helpful signal to the GEO platform.
 
@@ -239,7 +239,7 @@ Something that might work for both is to inject URLs (like in markdown links or 
 
 ## Embedding the Sponsored Material
 
-<img src='{{"/assets/forposts/ai-ad-gateway/ad-gateway.png", | relative_url }}' style="float: right; margin-left: 1rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/ai-ad-gateway/ad-gateway.png" | relative_url }}' style="float: right; margin-left: 1rem; max-height: 20rem; max-width: 20rem;" >
 
 
 

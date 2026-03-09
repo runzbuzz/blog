@@ -23,7 +23,7 @@ Here we list the <a href="https://youtube.com/shorts/wsGQsYRxlHg?si=7KHZJ_TKtC7I
 ​
 # Myth #1: You have to be cited by authoritative websites to show in AI search results.
 
-<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/myths.png", | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
+<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/myths.png" | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
 
 
 This is one of the most common recommendations you see on social media by digital marketing and search engine optimization experts. Being cited by authoritative websites can indeed boost your ranking in search engines and, inherently, the visibility in AI search results. This puts a lot of pressure on new startups and founders who end up buying backlinks or paying high-authority websites to talk about their brand. 
@@ -38,7 +38,7 @@ The good news here is that this doesn’t have to be the case. According to the 
 # Myth #2: Self-promotion does not affect your brand visibility in AI search.
 
 
-<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/geo-myths.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/geo-myths.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 By self-promotion, we mean publishing self-hosted content about your brand (e.g., listicles). Publishing your own ranking on your website and promoting it might increase your brand’s visibility in AI search results. In a recent study, cited resources have been examined, and it turned out that more than 30% were self-promotional blog lists, which are posts composed of lists or recommendations by the brand itself. This isn’t causality, but rather an observed correlation from the results of the study. 
 
@@ -57,7 +57,7 @@ You might’ve come across the “blogs are dead” posts on social media. Recen
 
 
 
-<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/blogs.png", | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
+<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/blogs.png" | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
 
 
 
@@ -93,7 +93,7 @@ It is important to note that the study was on three domains: software, products,
 
 # Recommendations
 
-<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/startup.png", | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/top5-geo-myths-chatgpt/startup.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
 
 
 Based on the research, the following can help increase the visibility in ChatGPT and other AI assistants:  

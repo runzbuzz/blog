@@ -37,11 +37,11 @@ I also tested **both text and image-based prompts** to explore how well they han
 
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center; margin-right: 10px; width: 50%">
-    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/fn_ds.png", | relative_url }}" style="width: 100%" class="popup-img">
+    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/fn_ds.png" | relative_url }}" style="width: 100%" class="popup-img">
     <p>DeepSeek's Response</p>
   </div>
   <div style="text-align: center;">
-    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/fn_gpt.png", | relative_url }}" style="width: 100%" class="popup-img">
+    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/fn_gpt.png" | relative_url }}" style="width: 100%" class="popup-img">
     <p>ChatGPT's Response</p>
   </div>
 </div>
@@ -54,11 +54,11 @@ I also tested **both text and image-based prompts** to explore how well they han
 
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center; margin-right: 10px; width: 50%">
-    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/ia_ds.png", | relative_url }}" style="width: 100%" class="popup-img">
+    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/ia_ds.png" | relative_url }}" style="width: 100%" class="popup-img">
     <p>DeepSeek's Response</p>
   </div>
   <div style="text-align: center;">
-    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/ia_gpt.png", | relative_url }}" style="width: 100%" class="popup-img">
+    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/ia_gpt.png" | relative_url }}" style="width: 100%" class="popup-img">
     <p>ChatGPT's Response</p>
   </div>
 </div>
@@ -71,11 +71,11 @@ I also tested **both text and image-based prompts** to explore how well they han
 
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center; margin-right: 10px; width: 50%">
-    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/disagreement_ds.png", | relative_url }}" style="width: 100%" class="popup-img">
+    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/disagreement_ds.png" | relative_url }}" style="width: 100%" class="popup-img">
     <p>DeepSeek's Response</p>
   </div>
   <div style="text-align: center;">
-    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/disagreement_gpt.png", | relative_url }}" style="width: 100%" class="popup-img">
+    <img src="{{"/assets/forposts/deepseek-vs-chatgpt-d1/disagreement_gpt.png" | relative_url }}" style="width: 100%" class="popup-img">
     <p>ChatGPT's Response</p>
   </div>
 </div>

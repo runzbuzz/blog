@@ -16,7 +16,7 @@ With the high cost to build and operate AI assistants, many companies are relyin
 
 # Types of Ads for AI Assistants
 
-<img src='{{"/assets/forposts/ai-ad-gateway-poc/ad-banner-split.png", | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
+<img src='{{"/assets/forposts/ai-ad-gateway-poc/ad-banner-split.png" | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
 
 There are the classic ads (e.g., banners, videos, etc) which work for social media and blogs. They are not specific to AI Assistants and agents. There are other kinds of advertisements that are specifically designed for AI Assistants. 
 Here, we focus on the injection of sponsored materials. Other types of ads are covered in another post [here](http://localhost:4000/posts/ads-in-ai).
@@ -40,7 +40,7 @@ The AI Ad Gateway is composed of the following components:
 
 <br>
 
-<img id="workflow-fig" src='{{"/assets/forposts/ai-ad-gateway-poc/ai-ad-gateway-flow.svg", | relative_url }}' style="max-width: 1200px; width: 100%">
+<img id="workflow-fig" src='{{"/assets/forposts/ai-ad-gateway-poc/ai-ad-gateway-flow.svg" | relative_url }}' style="max-width: 1200px; width: 100%">
 <p id="table-1-ad-types-and-relevance" style="font-style:italic; color:#666; text-align:center; margin-bottom:6px;">
 Figure 1. AI Ad Gateway
 </p>
@@ -68,10 +68,10 @@ To simplify the workflow, we had the injection of the sponsored materials be don
 
 # Example
 <!--
-<img src='{{"/assets/forposts/ai-ad-gateway-poc/geo-suggestions.png", | relative_url }}' style="float: right; margin-left: 0.05rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/ai-ad-gateway-poc/geo-suggestions.png" | relative_url }}' style="float: right; margin-left: 0.05rem; max-height: 20rem; max-width: 20rem;" >
 -->
 
-<img src='{{"/assets/forposts/ai-ad-gateway-poc/geo-suggestions.png", | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
+<img src='{{"/assets/forposts/ai-ad-gateway-poc/geo-suggestions.png" | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
 
 
 As an example, we have two sponsored ads:
@@ -90,7 +90,7 @@ The Router then would look for the most relevant ads by asking the Ads Manager. 
 
 # PoC Implementation
 
-<img src='{{"/assets/forposts/ai-ad-gateway-poc/stack.png", | relative_url }}' style="float: right; margin-left: 0.05rem; max-height: 25rem; max-width: 25rem;" >
+<img src='{{"/assets/forposts/ai-ad-gateway-poc/stack.png" | relative_url }}' style="float: right; margin-left: 0.05rem; max-height: 25rem; max-width: 25rem;" >
 
 The proof-of-concept implementation is available as [open source on GitHub](https://github.com/ahmad88me/ai-ad-gateway). This is not meant to be used for production, but to demonstrate its feasibility. 
 The gateway is implemented in Python using ChromaDB to store the embeddings. The embeddings of the prompts and responses are computed using `all-MiniLM-L6-v2`. We also built a minimalist interface mimicking AI assistants.

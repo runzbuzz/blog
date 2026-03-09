@@ -19,7 +19,7 @@ As the adoption of Artificial Intelligence (AI) increased and its benefits took 
 
 # Is AI rejecting you? 
 
-<img src='{{"/assets/forposts/ai-reject.webp", | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
+<img src='{{"/assets/forposts/ai-reject.webp" | relative_url }}' style="float: left; margin-right: 1rem; height: 20rem; width: 20rem; " >
 
 
 Have you once gone to a bank to get a loan? They do a [risk assessment](https://en.wikipedia.org/wiki/Credit_risk) before making a decision. Basically, they try to predict whether you will be able to pay the loan back plus the interest. Have you been to a bank to get a credit card, and they asked for a deposit? Most probably because they do not think that you will be able to pay it back.
@@ -42,7 +42,7 @@ How about applying for a job and never getting a callback even though you are th
  
 # Why it is doing so?
 
-<img src='{{"/assets/forposts/resume-piles.webp", | relative_url }}' style="float: right; margin-left: 1rem; height: 20rem; width: 20rem;" >
+<img src='{{"/assets/forposts/resume-piles.webp" | relative_url }}' style="float: right; margin-left: 1rem; height: 20rem; width: 20rem;" >
 
 
 Let us imagine that we provided the AI system with two piles of resumes: one with the good ones and another with the bad ones. The AI system would "study" those resumes and develop theories or ideas about what constitutes a good resume and what makes a resume bad (or unfit for the position).
@@ -83,7 +83,7 @@ Researchers in the AI domain can also develop techniques to help protect people�
  
 
 # How organizations might do it?
-<img src='{{"/assets/forposts/ai-bias.webp", | relative_url }}' style="float: right; margin-left: 1rem; max-height: 20rem; max-width: 20rem;" >
+<img src='{{"/assets/forposts/ai-bias.webp" | relative_url }}' style="float: right; margin-left: 1rem; max-height: 20rem; max-width: 20rem;" >
 1. **Technical Bias Mitigation Techniques**. There are certain measures that can be used by organisations to reduce the negative effects of AI use. There are [technical measures](https://www.holisticai.com/blog/bias-mitigation-strategies-techniques-for-classification-tasks) that can be employed to reduce the possible [bias](https://pubmed.ncbi.nlm.nih.gov/37845518/) (e.g., [resampling](https://www.statisticssolutions.com/dissertation-resources/sample-size-calculation-and-sample-size-justification/resampling/), [reweighting](https://web.stanford.edu/~lexing/resw.pdf)).
 2. **Transparent Protocol**. If you ask an organization that is using AI about the protocol they are using, they probably would not share it. It is important for organizations to employ a way to ask for AI decisions to be reviewed by humans. However, it might be hard to make it work in practice, as employees can also insist on always picking the same decision suggested by the AI system. However, as a start, having a transparent protocol on how such cases will be handled might mitigate the negative outcomes. You can also check how the EU has different requirements depending on the risk, such as the [EU AI Act](https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence#transparency-requirements-1) and the [EU Regulatory Framework on AI](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai).
 3. **Review Cycle**. Having humans in the loop is crucial. Continuously reviewing what is [going on](https://www.charthop.com/resources/combat-workplace-bias-with-performance-reviews) and being aware of the different [kinds of biases](https://www.cultureamp.com/blog/performance-review-bias), especially the ones committed by humans, can shed light on what to look for in these reviews.
