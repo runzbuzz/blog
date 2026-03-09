@@ -108,7 +108,7 @@ Based on the research, the following can help increase the visibility in ChatGPT
 
 <br>
 
-Curious whether your brand is showing up in ChatGPT results? Want to discover which competitors are appearing instead? Buzzsense tracks your brand’s visibility in AI assistants over time. Visit <a href="www.buzzsense.ai">www.buzzsense.ai</a>
+Curious whether your brand is showing up in ChatGPT results? Want to discover which competitors are appearing instead? Buzzsense tracks your brand’s visibility in AI assistants over time. Visit <a href="https://www.buzzsense.ai">www.buzzsense.ai</a>
 
 
 
