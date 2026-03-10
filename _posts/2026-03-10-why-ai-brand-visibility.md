@@ -40,7 +40,6 @@ competitors show up instead.
 
 <img src='{{"/assets/forposts/why-ai-brand-visibility/futuristic-data.png" | relative_url }}' style="float: left; margin-right: 1rem; max-height: 20rem; max-width: 20rem; " >
 
-
 When AI assistants choose brands, they don’t do so randomly. Their responses reflect patterns
 from all over the web, from articles to directories, product pages, and other sources it’s trained to
 consider reliable.
@@ -56,6 +55,7 @@ different: How often does our brand appear when AI assistants answer questions i
 This is what teams worldwide are increasingly describing as AI brand visibility or AI share of voice.
 
 
+
 # Why Marketers Need AI Brand Monitoring
 
 <img src='{{"/assets/forposts/why-ai-brand-visibility/charts.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
@@ -68,11 +68,10 @@ marketers can understand how AI systems interpret authority within their industr
 competitors appear most frequently, and what sources are influencing those answers.
 
 
+
 # Turning AI Answers Into Actionable Data
 
 <img src='{{"/assets/forposts/why-ai-brand-visibility/bubble.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
-
-
 
 Manual AI brand monitoring is difficult. Responses change constantly and results can vary across
 different AI models. That’s why AI brand intelligence platforms like [BuzzSense](https://www.buzzsense.ai/?utm_source=runzbuzz) exist, helping
