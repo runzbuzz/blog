@@ -305,7 +305,7 @@ new Chart(document.getElementById("statusCodeChart"), {
         ]
     },
     options: {
-    	esponsive: true,
+    	responsive: true,
         scales: {
             x: {
                 stacked: true
