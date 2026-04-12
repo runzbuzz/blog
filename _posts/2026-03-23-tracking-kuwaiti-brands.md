@@ -19,7 +19,6 @@ toc: true
 
 
 
-
 # Introduction
 <img src='{{"/assets/forposts/kuwaiti-brands-in-buzzsense/kuwait-towers-ai-charts.png" | relative_url }}' style="float: right; margin-left: 0.6rem; max-height: 20rem; max-width: 24rem;" >
 
@@ -350,7 +349,7 @@ new Chart(document.getElementById("foodChart"), {
             }
         },
         plugins: {
-            title: { display: true, text: "Telecom Visibility by Language" }
+            title: { display: true, text: "Food Delivery Visibility by Language" }
         }
     }
 });
