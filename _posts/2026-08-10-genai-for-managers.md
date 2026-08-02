@@ -10,7 +10,6 @@ toc: true
 ---
 
 
-<!-- polished -->
 
 GenAI is expected to bring between [$2.6 trillion and $4.4 trillion annually in value](https://www.mckinsey.com/industries/financial-services/our-insights/capturing-the-full-value-of-generative-ai-in-banking). Banking is expected to have the largest opportunity, equivalent to $200 billion, according to McKinsey and Company.
 
@@ -30,7 +29,6 @@ That is the objective we try to achieve in this post: to equip managers and exec
 
  
 
-<!-- polished -->
 
 ## What is GenAI exactly?
 
@@ -39,9 +37,7 @@ When AI generates content, whether it is text, images, voice, etc., it is genera
 When you ask ChatGPT to write an essay about AI in banking or when you ask [MidJourney](https://www.midjourney.com/) to generate an image for your book's cover letter, that is all Generative AI. 
 
 
-<!--
-<img src='{{"/assets/forposts/genai-for-managers/genai_workflow.png" | relative_url }}' style="float: right; margin-left: 0.8rem; max-height: 20rem; max-width: 20rem;" >
--->
+
 
 ![GenAI high level workflow](/assets/forposts/genai-for-managers/genai_workflow.png)
 
@@ -55,7 +51,6 @@ GenAI Workflow
 The user provides an input to the model (e.g., "Make a breakdown of the best chatbots in the market that support Arabic and English. Put the output in a table and compare the pros and cons for each."). 
 
 
-<!-- polished -->
 
 ### What is an AI model?
 
@@ -63,7 +58,6 @@ You can think of them as applications that contain data, mathematical formulas, 
 
 
 
-<!-- polished -->
 
 ### What does training the model mean?
 
@@ -116,7 +110,6 @@ If it is that old, then why do we need to worry about it now?
 
 
 
-<!-- polished -->
 
 
 ## Why GenAI Now?
@@ -135,7 +128,6 @@ McKinsey and Company predicts that [GenAI will bring $2.6 trillion to $4.4 trill
 
 
 
-<!-- polished -->
 
 ### Success stories
 
@@ -148,7 +140,6 @@ McKinsey and Company predicts that [GenAI will bring $2.6 trillion to $4.4 trill
 But people rarely talk about the horror stories.
 
 
-<!-- polished -->
 
 ### Horror Stories
 - A company, in a single month, [paid around $500 million USD](https://www.inc.com/kevin-haynes/the-500-million-ai-mistake-every-company-is-rushing-to-avoid/91353205) for one of their clients due to their introduction to Claude, because they forgot to put a cap on usage.
@@ -193,7 +184,6 @@ Screenshot of a post on x about Claude Code wiping database.
 
 
 
-<!-- polished -->
 
 ### Lawsuits
 
@@ -208,53 +198,75 @@ Screenshot of a post on x about Claude Code wiping database.
 
 
 
-
-
 ## GenAI & Data
 
-The most downplayed component of AI project which caused many large AI projects to fail is the data. GenAI is highly coupled with that data. [Google is paying Reddit around \$60 Million to access it's data](https://www.reuters.com/technology/reddit-ai-content-licensing-deal-with-google-sources-say-2024-02-22/). [OpenAI is paying Reddit for it's data as well](https://www.wsj.com/tech/ai/reddit-signs-data-licensing-deal-with-openai-14993757). 
+The most downplayed component of AI projects, which caused many large GenAI projects to fail, is data. GenAI is highly coupled with data. [Google is paying Reddit $60 million](https://www.reuters.com/technology/reddit-ai-content-licensing-deal-with-google-sources-say-2024-02-22/) to access its data. [OpenAI is paying Reddit](https://www.wsj.com/tech/ai/reddit-signs-data-licensing-deal-with-openai-14993757) for its data as well (around [$70 million in some estimates](https://searchengineland.com/openai-may-pay-reddit-70m-for-licensing-deal-451882)). 
+
+[Reddit filed a lawsuit against AI giants Perplexity](https://www.cnbc.com/2025/10/23/reddit-user-data-battle-ai-industry-sues-perplexity-scraping-posts-openai-chatgpt-google-gemini-lawsuit.html) and [Anthropic for using its copyrighted data](https://www.theguardian.com/technology/2025/jun/04/reddit-lawsuit-ai-startup-anthropic-data) to train their AI models without permission.
 
 
-The Majority of GenAI projects do not train the models from scratch because it is very expensive demanding task that only a handful of companies have the resources to perform.  Also the ROI doesn't make sense except for AI specialized or niche companies. [OpenAI spent more than $100 Million to train their older models](https://www.reuters.com/world/china/chinas-deepseek-says-its-hit-ai-model-cost-just-294000-train-2025-09-18/). 
+
+However, the majority of GenAI projects do not train their models from scratch because it is a very expensive, demanding task that only a handful of companies have the resources to successfully execute (experience, money, infrastructure, …).  Also, the return on investment (ROI) doesn't make sense except for AI-specialized or niche companies. [OpenAI spent more than $100 million](https://www.reuters.com/world/china/chinas-deepseek-says-its-hit-ai-model-cost-just-294000-train-2025-09-18/) to train their older models. Estimates of Grok training also exceed a couple of hundred million USD.  
 
 In practice, most practical GenAI projects fall in one of these buckets:
-1. Augmenting AI Models using RAG. 
+1. Augmenting AI models using RAG. 
 2. Fine-tuning pre-trained AI models.
-<!--
-3. Using the model as is.
--->
+
 
 
 
 ### Retrieval-Augmented Generation
 
-Retrieval-Augmented Generation (RAG) is a clever trick to provide the model with the data without retraining it. In high-level, it is like giving the AI model "access" to the data. 
+[Retrieval-Augmented Generation (RAG)](https://cloud.google.com/use-cases/retrieval-augmented-generation) is a clever trick to provide the model with the data without re-training or fine-tuning it. In high-level terms, it is like giving the AI model "access" to the data. 
 
 For example, let us say a telecom company is building a chatbot. Users can inquire about their remaining GBs in their data package, why their balance this month is high, and whether there are other data packages they can purchase to save money. 
 
-A bank might offer a GenAI service to their customers who wants to buy a car with installments or a loan with initial payment, and so on. 
+A bank might offer a GenAI service to customers who want to buy a car with installments or a loan with an initial payment, and so on. 
 
-These examples would access user profile, their band (e.g., high tier, low tier, ...), balance, services in their profile. It would also have access to companies offers and services. 
-
-
-Data related to the user profile and the company offers and services are feed to AI via RAG. Technically, the data is put in a special data storage (e.g., vector database) and the system will feel AI the relevant data. 
+These examples would access the user profile, their band (e.g., high tier, low tier, ...), balance, and services in their profile. It would also have access to the company’s offers and services. 
 
 
-### Fine-tuning Models
-This is a more technically demanding, which is to slightly tune or push the AI model into the directions required.
-
-The way it works is by adding an extra layer with tuning numbers. The data is "baked" into this new layer. So when it does not account when the user data change (e.g., updated balance) or when the company introduce a new service.
-
-It is suitable for more static data (e.g., Kuwaiti Dishdada vs Emarati dishdada). Kuwaiti dishdasha won't be changing next year and not in 10 years. 
+Data related to the user profile and the company offers and services are fed to AI via RAG. Technically, the data is stored in a special database (e.g., a [vector database](https://www.databricks.com/blog/what-is-vector-database)), and the system feeds the AI the relevant data. 
 
 
-<!--
-### Using the model as is.
 
-Using the model without any extra data can work in many instances and is the most common use case. However, the data used in this sense are mainly from the ones which exists in the model and hence can have lower risk in general. However, this use case is mainly for personal use and rather than for an AI project.
--->
+<!-- polished (except for the table) -->
 
 
+### Fine-Tuning and Adaptive Techniques
+
+
+This is a more technically demanding option. It is about tuning or steering the AI model in the required directions to be aligned with the provided training data. But it can be expensive as well.
+
+There are other variants of this, which can be thought of as adding an extra layer (e.g., [LoRA](https://iclr.cc/virtual/2022/poster/6319)), so the tuning is done on this new layer, [without affecting the base model](https://www.ibm.com/think/topics/lora). However, in practice, it might [reduce accuracy](https://www.ibm.com/think/topics/lora) and might [not generalize well](https://www.digitalocean.com/community/tutorials/lora-low-rank-adaptation-llms-explained#limitations-and-considerations).
+
+
+Furthermore, this is not suitable for dynamic data that changes frequently (e.g., User account balance, business offers, federal interest rate, …).
+
+
+
+We summarize the different use cases for RAG and Fine-Tuning.
+
+
+| Aspect | RAG | Fine-Tuning / Adaptive Techniques |
+|--------|-----|-----------------------------------|
+| Best suited for | Dynamic or frequently changing information | Stable knowledge, behavior, or writing style |
+| Primary purpose | Provide the model with external knowledge | Adapt how the model responds |
+| Updating knowledge | Simply update the underlying data | Requires re-training or re-tuning |
+| Time to implement | Fast | Slower |
+| Cost | Low | Moderate to High |
+| Infrastructure | Lower requirements | GPU resources typically required for training |
+| Typical examples | Company policies, product catalogs, internal documentation, financial reports | Customer support tone, legal writing style, industry-specific terminology |
+
+
+| RAG                                   | Fine-Tuning/Adaptive Techniques         |
+|---------------------------------------|-----------------------------------------|
+| Dynamic Data                          | Static Data                             |
+| Only augment based on data, not tasks | More tasks (focus on a specific domain) |
+| Fast                                  | LoRa can be faster than full-fine tuning, but RAG is generally faster|
+| Low                          | Moderate to High                             |
+| Cheaper                          | Can be expensive                             |
+| Lower Infrastructure                          | Powerful infrastructure (e.g., GPUs)     |                     |
 
 
 
@@ -263,56 +275,56 @@ Using the model without any extra data can work in many instances and is the mos
 
 ## Data Governance and Provenance
 
-What to be aware of when it comes to data?
+*What should you be aware of when it comes to data?*
 
 
-<!--
-FIND STORIES in the BANKING and FINANCIAL SECTOR
--->
+**What if the GenAI resulted in an interest rate lower than anticipated?** Or **falsely declined a loan (lost customer) due to obsolete regulations that are no longer active?**
 
-*Imagine the system predicting that a male patient is pregnant?*
-What if the AI model was created by a country (or using official documents from a country) that allow people to change their gender (e.g., self identifying gender). That needs to be taken into account. Because for a male-born patient pregnancy can be discarded and related tests can be discarded. See [EU rules on gender change](https://europa.eu/youreurope/citizens/residence/documents-formalities/legal-gender-recognition/index_en.htm) for more info.
-
-*What if the police found a shirtless driver?*
-[It is illegal in Thailand](https://www.slatergordon.co.uk/newsroom/weird-and-wonderful-traffic-laws-around-the-world/) but might not be in your city. If AI decided to fine a person, it is important to know why.
-
-
-
-*What if the GenAI resulted in interest rate lower than anticipated?* *Or falsefully declined a loan (lost customer) due to obsolete regulations which are no longer in active?*
-
-A bank would like to know why this happened and how to prevent this for the next prospective customers. 
-
-
-
+A bank would like to know why this happened and how to prevent such issues for the next prospective customers. 
 
 
 Let us ask the following:
-1. Why AI didn't suggest service X?
-2. Why it shows that my balance is X when the app shows Y?
-3. Who said customers on package Z can get a 50% discount if they bought a family member onboard?
-4. Why customer X is getting promotion Y even though they are on promotion Z already? 
+1. Why did the AI not suggest service X?
+2. Why does it show that my balance is X when the app shows Y?
+3. Who said customers on package Z can get a 50% discount if they bought a family member on board?
+4. Why is customer X getting promotion Y even though they are on promotion Z already? 
 
-*This is where data governance and provenance come in place*
+
+This is where data governance and provenance come into play.
+
+
 
 ### Data Governance
 
-Data Governance is about rules and policies. For example, all sensitive data should be encrypted. The personal information (e.g., name, date of birth) is fetched directly from the goverment resources (e.g., Hawiti in Kuwait). This also includes legal policies (e.g., gender data should not be used when considering the loan).
+Data Governance is about rules and policies. For example, all sensitive data should be encrypted; personal information (e.g., name, date of birth) should be fetched directly from government resources (e.g., Hawiti in Kuwait). This also includes legal policies (e.g., gender data should not be used when considering the loan).
 
-Let us say the company wanted to gift all mothers who are subscribed to package X in mothers day. The system has to decided where to pull in the data about the gender. Practically speaking, this data might exists in many sources inside the company and not necesary all of them are complete or up to date. So deciding the source randomly might cause some mothers to not get the gift due to missing data or for male to get the motherday pink box due to some error in the data. 
-
-This issue won't happen with the proper planning. Probably the owners of that specific pieces of data would advise you not to fetch the gender from this data or not to rely on that other database because the data is updated at the end of the month, so new customers will miss it and customers who already left will receive the gift. 
+Let us say the company wanted to gift all mothers who are subscribed to package X on Mother's Day. The system has to decide where to pull the data from. Practically speaking, this data might exist in many sources inside the company, and not necessarily all of them are complete or up to date. So deciding the source randomly might cause some mothers to not get the gift due to missing data, or for mothers who already received the gift last month to receive the same gift again.
 
 
-But what if the used source was correct, can we face another issue? What is the issue happen in the data transformation phase? One of the common patterns is having the boolean values in text. For example, some data sources use "yes" and other data sources use "Y". In international organization, or multi-lengual data, also "si" can be found (which is yes in Spanish). The journey of the data is related to Data Provenance.
+
+This issue won't happen with proper planning. Probably the owners of those specific datasets would advise not to fetch the mother’s data from these sources or not to rely on that other database because the data is updated every other month, so that new customers will miss it, and customers who already left will receive the gift. 
+
+
+But what if the source used was correct? Can we face another issue? What happens if the issue occurs in the data transformation phase? One common pattern is having boolean values in text. For example, some data sources use "yes," and other data sources use "Y". In international organizations or multilingual data, "si" can also be found (which is yes in Spanish). The journey of the data is related to Data Provenance.
+
 
 
 ### Data Provenance
 
-[Data Provenance](https://doi.org/10.1007/3-540-44503-X_20) is the journey of the data and sometimes it is called [data lineage](https://www.ibm.com/think/topics/data-lineage). It helps in [tracing errors and anomalies](https://doi.org/10.1109/ICDE.1997.581742). 
+[Data Provenance](https://doi.org/10.1007/3-540-44503-X_20) is the journey of the data, sometimes called [data lineage](https://www.ibm.com/think/topics/data-lineage). It helps in [tracing errors and anomalies](https://doi.org/10.1109/ICDE.1997.581742).
+
+
 
 Data in the database can be exposed in [database views](https://doi.org/10.1007/3-540-44503-X_20) or materialized, transformed, [aggregated](https://doi.org/10.1109/ICDE.2000.839437), and integrated with data from other sources. 
 
-Knowing this information is crucial for monitoring and tracking inaccuraies and data discrepancies in AI answers as RAG is a common way used in GenAI projects to feed the AI with organization's data.
+Knowing this information is crucial for monitoring and tracking inaccuracies and data discrepancies in AI answers, as RAG is a common way used in GenAI projects to feed the AI with the organization's data.
+
+
+
+## Final Remarks
+
+
+
 
 
 
