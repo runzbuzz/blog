@@ -2,10 +2,10 @@
 layout: post
 title: "What managers need to know about GenAI?"
 categories: [GenAI, AI]
-description: ""
+description: "Generative AI is transforming industries and is expected to bring trillions of dollars in economic value. Many organizations have already started their AI journey. But how can managers and executives assess GenAI projects and steer them towards success? They aren’t expected to be engineers, but they need to understand the core concepts of GenAI, ask the right questions, recognize key opportunities, be aware of the risks, and learn to evaluate GenAI projects objectively."
 author: aalobaid
 length: 10
-cover: 
+cover: genai-for-managers/genai_for_managers_cover.png
 toc: true
 ---
 
@@ -248,26 +248,162 @@ Furthermore, this is not suitable for dynamic data that changes frequently (e.g.
 We summarize the different use cases for RAG and Fine-Tuning.
 
 
-| Aspect | RAG | Fine-Tuning / Adaptive Techniques |
-|--------|-----|-----------------------------------|
-| Best suited for | Dynamic or frequently changing information | Stable knowledge, behavior, or writing style |
-| Primary purpose | Provide the model with external knowledge | Adapt how the model responds |
-| Updating knowledge | Simply update the underlying data | Requires re-training or re-tuning |
-| Time to implement | Fast | Slower |
-| Cost | Low | Moderate to High |
-| Infrastructure | Lower requirements | GPU resources typically required for training |
-| Typical examples | Company policies, product catalogs, internal documentation, financial reports | Customer support tone, legal writing style, industry-specific terminology |
+<style>
+  .comparison-table-wrapper {
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    border: 1px solid #dbe3ea;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  }
 
+  .comparison-table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 
-| RAG                                   | Fine-Tuning/Adaptive Techniques         |
-|---------------------------------------|-----------------------------------------|
-| Dynamic Data                          | Static Data                             |
-| Only augment based on data, not tasks | More tasks (focus on a specific domain) |
-| Fast                                  | LoRa can be faster than full-fine tuning, but RAG is generally faster|
-| Low                          | Moderate to High                             |
-| Cheaper                          | Can be expensive                             |
-| Lower Infrastructure                          | Powerful infrastructure (e.g., GPUs)     |                     |
+  .comparison-table th,
+  .comparison-table td {
+    padding: 16px 18px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #e7edf2;
+  }
 
+  .comparison-table thead th {
+    background: #f4f8fb;
+    color: #1f2937;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .comparison-table thead th:first-child {
+    width: 22%;
+  }
+
+  .comparison-table tbody th {
+    color: #334155;
+    font-weight: 600;
+    background: #fafcfd;
+  }
+
+  .comparison-table tbody tr:last-child th,
+  .comparison-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .comparison-table tbody tr:hover td,
+  .comparison-table tbody tr:hover th {
+    background: #f8fbfd;
+  }
+
+  .comparison-label {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .rag-label {
+    background: #e0f2fe;
+    color: #0369a1;
+  }
+
+  .fine-tuning-label {
+    background: #ede9fe;
+    color: #6d28d9;
+  }
+
+  @media (max-width: 768px) {
+    .comparison-table th,
+    .comparison-table td {
+      padding: 13px 14px;
+    }
+  }
+</style>
+
+<p id="table-1-ad-types-and-relevance" style="font-style:italic; color:#666; text-align:center; margin-bottom:6px;">
+Table 1. Comparison between RAG and fine-tuning techniques.
+</p>
+
+<div class="comparison-table-wrapper">
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>
+                  <span class="comparison-label"></span><br>
+
+        Aspect</th>
+        <th>
+          <span class="comparison-label rag-label">RAG</span><br>
+          Retrieval-Augmented Generation
+        </th>
+        <th>
+          <span class="comparison-label fine-tuning-label">Fine-Tuning</span><br>
+          Fine-Tuning and Adaptive Techniques
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th scope="row">Best suited for</th>
+        <td>Dynamic or frequently changing information</td>
+        <td>Stable knowledge, specialized behavior</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Primary purpose</th>
+        <td>Provide the model with relevant external knowledge</td>
+        <td>Adapt how the model responds</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Updating knowledge</th>
+        <td>Update the connected documents or database</td>
+        <td>Requires additional training or re-tuning</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Time to implement</th>
+        <td>Faster to implement</td>
+        <td>Requires more preparation and testing</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Cost</th>
+        <td>Typically lower</td>
+        <td>Moderate to high</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Infrastructure</th>
+        <td>Requires a retrieval system and access to organizational data</td>
+        <td>May require GPU resources during training</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Typical examples</th>
+        <td>
+          Company policies, product catalogs, internal documentation,
+          and current offers
+        </td>
+        <td>
+          Customer-service tone, industry terminology, specialized writing,
+          classification, and task-specific behavior
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 
@@ -322,12 +458,24 @@ Knowing this information is crucial for monitoring and tracking inaccuracies and
 
 
 ## Final Remarks
+<ol> <li>
+Managers are not expected to be AI engineers, but they should understand the core concepts of Generative AI to make informed decisions and ask the right questions.
+</li>
+<li>
+GenAI presents significant opportunities, but organizations should start with a clear business case and evaluate the expected return on investment before investing in the project.
+</li>
+<li>
+Data is one of the most underestimated dimensions when it comes to AI projects and GenAI in particular. Data Governance and Provenance should be considered from the beginning of the project, rather than treated as an afterthought or after problems arise.
+</li>
+<li>
+Clearly define human accountability. AI can assist with decision-making, but responsibility should always remain with people. As IBM famously stated in 1979: <a href="https://www.ibm.com/think/insights/ai-decision-making-where-do-businesses-draw-the-line">"A computer can never be held accountable, therefore a computer must never make a management decision."</a>
 
 
 
+</li>
+</ol>
 
 
-
-
-
+If you like to go further and learn how to assess Generative AI projects objectively, explore our course, [Helping Organizations Make Data & AI Work](https://tatrainsight.com/training/making-data-ai-work/), developed through a collaboration between [Runzbuzz](https://www.runzbuzz.com/) and [TatraInsight](https://tatrainsight.com/). 
+[Runzbuzz](https://www.runzbuzz.com/) provides AI consulting and R&D services. If you have an AI project, we'd be happy to discuss how we can help. 
 
