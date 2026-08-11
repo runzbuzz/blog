@@ -1,105 +1,737 @@
 ---
 ---
 
+/* ==================================================
+Minima configuration
+================================================== */
+
+$content-width: 1200px;
+
+/* Load Minima */
 @import "minima";
 
 /* ==================================================
-   Runzbuzz Theme
-   ================================================== */
+Runzbuzz Theme
+================================================== */
 
 /* --------------------------------------------------
-   Variables
-   -------------------------------------------------- */
+Variables
+-------------------------------------------------- */
 
-/* Colors */
 $runzbuzz-blue: #019FE3;
 $text-color: #1F2937;
 $muted-color: #6B7280;
 $border-color: #E5E7EB;
 $background-color: #FFFFFF;
 
-/* Layout */
-$content-width: 1200px;
 $post-width: 760px;
 
 /* --------------------------------------------------
-   Header
-   -------------------------------------------------- */
+Header
+-------------------------------------------------- 
+*/
+
+.site-header {
+  border-top: 5px solid $runzbuzz-blue;
+  border-bottom: 1px solid $border-color;
+}
 
 .site-title {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
+
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+.site-title:hover {
+    text-decoration: none;
 }
 
 .site-logo {
-  height: 36px;
-  width: auto;
   display: block;
+  width: auto;
+  height: 36px;
+  max-height: 36px;
 }
 
-/* --------------------------------------------------
-   Navigation
-   -------------------------------------------------- */
+/*
+--------------------------------------------------
+About
+--------------------------------------------------
+*/
 
-/* --------------------------------------------------
-   Home
-   -------------------------------------------------- */
+.degree-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1.75rem 0 2rem;
+}
+
+.degree-card {
+  padding: 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.degree-type {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.2rem 0.55rem;
+
+  color: $runzbuzz-blue;
+  background: rgba($runzbuzz-blue, 0.08);
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.degree-type {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.degree-card:hover .degree-type {
+  background: $runzbuzz-blue;
+  color: #fff;
+}
+
+.degree-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.degree-card p {
+  margin: 0;
+  color: $muted-color;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 700px) {
+  .degree-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Hero */
+
+.about-hero {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 3.5rem;
+  align-items: center;
+  margin: 3rem 0 5rem;
+}
+
+.about-hero-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.about-hero-content {
+  max-width: 560px;
+}
+
+.about-eyebrow {
+  display: block;
+  margin-bottom: 0.5rem;
+
+  color: $runzbuzz-blue;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.about-hero h1 {
+  margin: 0 0 0.35rem;
+
+  font-size: 3rem;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.about-role {
+  margin: 0 0 1.5rem;
+
+  color: $muted-color;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.about-introduction {
+  margin-bottom: 1.5rem;
+  //font-size: 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about-link {
+  font-weight: 600;
+}
+
+
+/* Sections */
+
+.about-section {
+  //max-width: 760px;
+  //margin: 0 auto 4.5rem;
+  margin: 0 auto 0.5rem;
+}
+
+.about-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+
+/* Research interests */
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.research-item {
+  padding: 1.4rem;
+
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.research-item h3 {
+  margin: 0 0 0.45rem;
+
+  font-size: 1rem;
+}
+
+.research-item p {
+  margin: 0;
+
+  color: $muted-color;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.degree-card,
+.research-item {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.degree-card:hover,
+.research-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba($runzbuzz-blue, 0.45);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+.degree-type,
+.research-item h3 {
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.degree-card:hover .degree-type {
+  color: #fff;
+  background-color: $runzbuzz-blue;
+}
+
+.research-item:hover h3 {
+  color: $runzbuzz-blue;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .about-hero-image {
+    max-width: 260px;
+  }
+
+  .about-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 
+--------------------------------------------------
+Home
+-------------------------------------------------- */
+
+.home-posts {
+  margin-top: 2rem;
+}
 
 .post-list {
-  margin-left: 0;
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 2rem;
+  row-gap: 3.5rem;
+
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
+/* --------------------------------------------------
+Post card
+-------------------------------------------------- */
+
 .post-list-item {
-  display: flex;
-  height: 140px;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  min-width: 0;
+  margin: 0;
 }
 
+/* Cover */
+
 .post-cover-link {
-  flex: 0 0 200px;      /* fixed width */
-  height: 100%;
+  display: block;
+
+  width: 100%;
+  aspect-ratio: 16 / 10;
+
   overflow: hidden;
+
+  background: #f3f4f6;
   border-radius: 8px;
 }
 
 .post-cover {
+  display: block;
+
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   object-position: center;
+
+  transition: transform 0.25s ease;
 }
 
 .post-cover-link:hover .post-cover {
-  transform: scale(1.04);
+  transform: scale(1.025);
 }
+
+/* --------------------------------------------------
+Post card content
+-------------------------------------------------- */
+
 .post-list-content {
-  flex: 1;
-  min-width: 0;
+  padding-top: 1rem;
 }
 
-.post-list-content h3 {
-  margin: 0.3rem 0 0.75rem;
+/* Metadata */
 
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+/*
+.post-author {
+  margin-top: 0.9rem;
+
+  color: $muted-color;
+  font-size: 0.82rem;
+}
+*/
+
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+
+  margin-top: 0.9rem;
+
+  color: $muted-color;
+  font-size: 0.82rem;
 }
 
-.post-excerpt {
+
+.post-author a {
+  color: $text-color;
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    color: $runzbuzz-blue;
+  }
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  margin-bottom: 0.55rem;
+
+  color: $muted-color;
+
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.post-category {
+  color: $text-color;
+  font-weight: 500;
+}
+
+.post-meta-separator {
+  color: #c2c6cc;
+}
+
+.post-category {
+  color: $runzbuzz-blue;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Title */
+
+.post-card-title {
   display: -webkit-box;
+
+  margin: 0 0 0.65rem;
+
   overflow: hidden;
+
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
 
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
 
-/* --------------------------------------------------
-   Posts
-   -------------------------------------------------- */
+.post-link {
+  color: $text-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $text-color;
+  }
+
+  &:hover {
+    color: $runzbuzz-blue;
+    text-decoration: none;
+  }
+}
+
+/* Description */
+
+.post-excerpt {
+  display: -webkit-box;
+
+  overflow: hidden;
+
+  color: $muted-color;
+
+  font-size: 0.98rem;
+  line-height: 1.55;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
 
 /* --------------------------------------------------
-   Footer
-   -------------------------------------------------- */
+Posts
+-------------------------------------------------- */
+
+.post {
+  max-width: $post-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-description {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+
+  padding-left: 1rem;
+  border-left: 3px solid $runzbuzz-blue;
+
+  //font-size: 1.15rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: $muted-color;
+}
+
+/* --------------------------------------------------
+Footer
+-------------------------------------------------- */
+
+.site-footer {
+  margin-top: 4rem;
+  padding: 2.5rem 0 1.25rem;
+
+  background: #F7F9FB;
+
+  border-top: 1px solid $border-color;
+}
+
+.site-footer .wrapper {
+  max-width: 1000px;
+}
+
+/* Main footer row */
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 3rem;
+}
+
+.footer-newsletter {
+  display: flex;
+  align-items: center;
+
+  gap: 1.5rem;
+}
+
+.footer-mascot {
+  //width: 90px;
+  width: 130px;
+  height: auto;
+
+  flex-shrink: 0;
+}
+
+.footer-newsletter-content {
+  max-width: 450px;
+}
+
+.footer-newsletter-content h2 {
+  margin: 0 0 0.35rem;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.footer-newsletter-content p {
+  margin: 0 0 0.9rem;
+
+  color: $muted-color;
+
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Newsletter link */
+
+.footer-newsletter-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  color: $runzbuzz-blue;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  &:visited {
+    color: $runzbuzz-blue;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* --------------------------------------------------
+Social icons
+-------------------------------------------------- */
+
+.footer-social {
+
+  .social-media-list {
+    display: flex;
+    align-items: center;
+
+    gap: 0.75rem;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  .social-media-list li {
+    margin: 0;
+  }
+
+  .social-media-list a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    color: $muted-color;
+    text-decoration: none;
+
+    border: 1px solid $border-color;
+    border-radius: 50%;
+
+    transition:
+      color 0.2s ease,
+      border-color 0.2s ease,
+      background 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      color: $runzbuzz-blue;
+
+      background: #fff;
+
+      border-color: $runzbuzz-blue;
+
+      transform: translateY(-1px);
+    }
+  }
+
+  .svg-icon {
+    width: 18px;
+    height: 18px;
+
+    padding: 0;
+
+    fill: currentColor;
+  }
+
+  .username {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------
+Footer bottom
+-------------------------------------------------- */
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+  padding-top: 1rem;
+
+  color: $muted-color;
+
+  font-size: 0.8rem;
+
+  border-top: 1px solid $border-color;
+}
+
+.footer-bottom a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: $runzbuzz-blue;
+  }
+}
+
+/* --------------------------------------------------
+Responsive
+-------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+
+  .post-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .footer-main {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 1.5rem;
+  }
+
+  .footer-newsletter {
+    align-items: flex-start;
+  }
+
+  .footer-mascot {
+    width: 75px;
+  }
+
+  .footer-social {
+    margin-left: 90px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .post-list {
+    grid-template-columns: 1fr;
+
+    gap: 2.75rem;
+  }
+
+  .post-cover-link {
+    aspect-ratio: 16 / 9;
+  }
+
+  .post-card-title {
+    font-size: 1.25rem;
+  }
+}

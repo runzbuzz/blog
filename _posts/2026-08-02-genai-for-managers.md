@@ -2,6 +2,7 @@
 layout: post
 title: "What managers need to know about GenAI?"
 categories: [GenAI, AI]
+category: AI for Managers
 description: "Generative AI is transforming industries and is expected to bring trillions of dollars in economic value. Many organizations have already started their AI journey. But how can managers and executives assess GenAI projects and steer them towards success? They aren’t expected to be engineers, but they need to understand the core concepts of GenAI, ask the right questions, recognize key opportunities, be aware of the risks, and learn to evaluate GenAI projects objectively."
 author: aalobaid
 length: 10

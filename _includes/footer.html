@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="wrapper">
+
+    <div class="footer-main">
+
+      <div class="footer-newsletter">
+        <img
+          src="{{ '/assets/images/runzbuzz-mascot.png' | relative_url }}"
+          alt=""
+          class="footer-mascot"
+        >
+
+        <div class="footer-newsletter-content">
+          <h2>Stay in the loop</h2>
+
+          <p>
+          	AI research, ideas, experiments, and things we’re building at Runzbuzz.
+          </p>
+
+          <a class="footer-newsletter-button" href="/join/">
+            Join the newsletter →
+          </a>
+        </div>
+      </div>
+
+<div class="footer-social">
+  {%- include social.html -%}
+</div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>
+        © {{ 'now' | date: "%Y" }} Runzbuzz Blog
+      </span>
+
+      <a href="https://www.runzbuzz.com">
+        runzbuzz.com
+      </a>
+    </div>
+
+  </div>
+</footer>

@@ -2,57 +2,86 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+{{ content }}
 
-  {{ content }}
+{%- if site.posts.size > 0 -%}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">
-      {{ page.list_title | default: "Posts" }}
-    </h2>
+<section class="home-posts">
 
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-        <li class="post-list-item">
+  <div class="post-list">
 
-          {%- if post.cover -%}
-            <a
-              class="post-cover-link"
-              href="{{ post.url | relative_url }}"
-              aria-label="Read {{ post.title | escape }}"
-            >
+    {%- for post in site.posts -%}
+
+      <article class="post-list-item">
+
+        {%- if post.cover -%}
+          <a
+            class="post-cover-link"
+            href="{{ post.url | relative_url }}"
+            aria-label="Read {{ post.title | escape }}">
+
             <img
-      class="post-cover"
-      src="{{ '/assets/forposts/' | append: post.cover | relative_url }}"
-      alt="{{ post.title | escape }}">
-            </a>
-          {%- endif -%}
+              class="post-cover"
+              src="{{ '/assets/forposts/' | append: post.cover | relative_url }}"
+              alt="{{ post.title | escape }}">
+          </a>
+        {%- endif -%}
 
-          <div class="post-list-content">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <div class="post-list-content">
 
-            <span class="post-meta">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+          <div class="post-meta">
+            {%- if post.category -%}
+              <span class="post-category">
+                {{ post.category }}
+              </span>
+
+              <span class="post-meta-separator">•</span>
+            {%- endif -%}
+
+            <time datetime="{{ post.date | date_to_xmlschema }}">
               {{ post.date | date: date_format }}
-            </span>
-
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-
-
-            {%- if post.description -%}
-				<div class="post-excerpt">
-				  {{ post.description }}
-				</div>
-				{%- endif -%}
+            </time>
           </div>
-        </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-</div>
+
+          <h2 class="post-card-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h2>
+
+          {%- if post.description -%}
+            <div class="post-excerpt">
+              {{ post.description }}
+            </div>
+          {%- endif -%}
+		
+		
+			{%- assign author = site.data.authors[post.author] -%}
+			{%- if post.author -%}
+			  <div class="post-author">
+			        <span>By</span>
+ 
+			    {%- if author -%}
+			      {%- if author.url -%}
+			        <a href="{{ author.url }}">{{ author.name }}</a>
+			      {%- else -%}
+			        {{ author.name }}
+			      {%- endif -%}
+			    {%- else -%}
+			      {{ post.author }}
+			    {%- endif -%}
+			  </div>
+			{%- endif -%}
+        </div>
+
+      </article>
+
+    {%- endfor -%}
+
+  </div>
+
+</section>
+
+{%- endif -%}

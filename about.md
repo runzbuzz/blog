@@ -1,39 +1,210 @@
 ---
-layout: info
+layout: default
 title: About
 ---
 
-# About Me
+<div class="about-page">
 
-## Ahmad Alobaid - Founder of Runzbuzz
+  <section class="about-hero">
 
-*Welcome to Runzbuzz! My name is Ahmad Alobaid, and I am thrilled to share a bit about myself and the vision behind our startup.*
+    <div class="about-hero-image">
+      <img
+        src="{{ '/assets/images/founder2.png' | relative_url }}"
+        alt="Ahmad Alobaid, founder of Runzbuzz">
+    </div>
 
-<br>
+    <div class="about-hero-content">
+      <span class="about-eyebrow">About Me</span>
 
-With a Masters and a PhD in Artificial Intelligence, I have dedicated my academic and professional career to exploring and advancing the field of AI. My journey has been driven by a passion for innovation and a commitment to harnessing the power of AI to create practical, impactful solutions.
+      <h1>Ahmad Alobaid</h1>
 
-## My Journey
+      <p class="about-role">
+        AI Researcher & Founder of Runzbuzz
+      </p>
 
-My academic pursuit began with a Master's degree in AI, where I delved into the intricacies of machine learning, data analytics, and intelligent systems. This was a transformative period that laid the foundation for my doctoral research. During my PhD, I specialized in developing cutting-edge AI models that mimic human understanding of tabular data and automatically integrate data from heterogeneous resources in a (semi-)automatic fashion. This research not only pushed the boundaries of AI but also aimed to solve some of the most pressing challenges in semantic data integration and understanding semi-structured data.
+      <p class="about-introduction">
+      
+      I have worked as an AI researcher across both academia and industry for several years. My work has taken me to different countries, including Kuwait, Spain, Germany, the Netherlands, and the United Kingdom.
+      
+      
+      
+      <!--
+      
+        Runzbuzz Blog is where invited guests and I share our research,
+        ideas, experiments, findings, and practical experiences from our
+        journey in Artificial Intelligence.
+        
+        -->
+      </p>
+
+      <a
+        class="about-link"
+        href="https://www.linkedin.com/in/ahmadalobaid/"
+        target="_blank"
+        rel="noopener">
+        LinkedIn →
+      </a>
+    </div>
+
+  </section>
 
 
-## Founding Runzbuzz
 
-Runzbuzz is the culmination of years of research, development, and a vision to bring AI-driven solutions to the forefront of business and everyday life. Located in the vibrant city of Kuwait, Runzbuzz is more than just a startup; it is a hub of innovation, creativity, and excellence.
+<section class="about-section">
+  <h2>Academic Background</h2>
 
-At Runzbuzz, we specialize in leveraging AI technology to provide bespoke solutions that drive growth, efficiency, and innovation for our clients. Our team of experts is dedicated to understanding your unique needs and crafting solutions that are tailored to achieve your goals.
 
-## Our Mission
 
-Our mission at Runzbuzz is to empower businesses and individuals with advanced AI solutions that simplify complexity, enhance decision-making, and foster innovation. We believe in a future where AI seamlessly integrates into various aspects of life and business, creating opportunities for growth and success.
+    <p>
+      I have two master's degrees: one in Artificial Intelligence from
+      <a href="https://www.upm.es/">Universidad Politécnica de Madrid</a>
+      and another in Statistics from
+      <a href="https://www.uc3m.es/">Universidad Carlos III de Madrid</a>.
+      I received my PhD in Artificial Intelligence from Universidad
+      Politécnica de Madrid while working as a researcher at the
+      <a href="https://oeg.fi.upm.es/">Ontology Engineering Group</a>.
+    </p>
 
-## Why Choose Runzbuzz?
+  <div class="degree-grid">
 
-- **Expertise**: With a strong academic background and extensive research experience, we bring a deep understanding of AI technology and its applications, particularly in mimicking human understanding of data and automating data integration.
-- **Innovation**: We stay at the forefront of AI advancements, continuously exploring new ways to solve problems and create value for our clients.
-- **Customization**: Every client is unique, and so are our solutions. We tailor our AI-driven strategies to meet your specific needs and objectives.
-- **Commitment**: We are committed to delivering excellence and building long-term partnerships based on trust, transparency, and mutual success.
+    <div class="degree-card">
+      <span class="degree-type">PhD</span>
+      <h3>Artificial Intelligence</h3>
+      <p>Universidad Politécnica de Madrid</p>
+    </div>
+
+    <div class="degree-card">
+      <span class="degree-type">MSc</span>
+      <h3>Artificial Intelligence</h3>
+      <p>Universidad Politécnica de Madrid</p>
+    </div>
+
+    <div class="degree-card">
+      <span class="degree-type">MSc</span>
+      <h3>Statistics</h3>
+      <p>Universidad Carlos III de Madrid</p>
+    </div>
+
+    <div class="degree-card">
+      <span class="degree-type">BSc</span>
+      <h3>Computer Science</h3>
+      <p>Kuwait University</p>
+    </div>
+
+  </div>
+  
+  
+  <p>
+  My academic and research experience spans several universities and
+  institutions, including
+  <a href="https://www.upm.es/">Universidad Politécnica de Madrid</a>,
+  <a href="https://universidadeuropea.com/conocenos/madrid/">Universidad Europea de Madrid</a>,
+  <a href="https://www.ie.edu/">IE University</a>,
+  <a href="https://vu.nl/nl">Vrije Universiteit Amsterdam</a>,
+  and <a href="https://www.uni-paderborn.de/">Universität Paderborn</a>.
+</p>
+  
+  
+  
+    <p>
+    My academic background combines Artificial Intelligence and Statistics,
+    with research experience across several universities and institutions: <a href="https://www.upm.es/">Universidad Politécnica de Madrid</a>, <a href="https://universidadeuropea.com/conocenos/madrid/">Universidad Europea de Madrid</a>, <a href="https://www.ie.edu/">IE University (startup)</a>, <a href="https://vu.nl/nl">Vrije Universiteit Amsterdam</a>, and  <a href="https://www.uni-paderborn.de/">Universität Paderborn</a>.    
+  </p>
+</section>
+
+
+
+
+  <section class="about-section">
+    <h2>Research Interests</h2>
+
+    <p>
+      My research interests span several areas of Artificial Intelligence,
+      including:
+    </p>
+
+    <div class="research-grid">
+
+      <div class="research-item">
+        <h3>LLMs & RAG</h3>
+        <p>
+          Large Language Models and Retrieval-Augmented Generation.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <h3>AI Security</h3>
+        <p>
+          LLM security, red teaming, and jailbreaks.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <h3>Knowledge Graphs</h3>
+        <p>
+          Knowledge representation and knowledge graphs.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <h3>Semantic Web</h3>
+        <p>
+          Semantic labelling and data integration.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <h3>ML & Statistics</h3>
+        <p>
+          Machine learning, data science, and statistical modelling.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <h3>Search & AI Visibility</h3>
+        <p>
+          SEO, Generative Engine Optimization (GEO), and Answer Engine
+          Optimization (AEO).
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+
+<!--
+
+
+## Research Interests
+
+My research interests span several areas of Artificial Intelligence, including:
+
+* Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
+* LLM security, red teaming, and jailbreaks.
+* Knowledge representation and knowledge graphs.
+* Semantic labelling and data integration.
+* Machine learning, data science, and statistical modelling.
+* Search and AI visibility: Search Engine Optimization (SEO), Generative Engine Optimization (GEO), and Answer Engine Optimization (AEO).
+
+
+
+
+## Professional Background
+
+For more about my professional background and experience, you can find me on [LinkedIn](https://www.linkedin.com/in/ahmadalobaid/).
+
+
+
+
+AI Researcher at Neural Trust in Spain, Moonshot, NTT Data (previously Everis), European projects, European Union Commission, Zain Telecommunication, and more.
+
+
+Founded Runzbuzz, an AI startup that focuses on Research and Development in the domain of Artificial Intelligence. 
+
+
+
 
 ## Let's Connect
 
@@ -47,4 +218,4 @@ I invite you to explore the possibilities that AI can bring to your business. Wh
 Founder, Runzbuzz  
 PhD in Artificial Intelligence  
 
-
+-->
