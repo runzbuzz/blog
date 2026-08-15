@@ -39,6 +39,20 @@ layout: default
   {{ reading_time }} min read
 </span>
     </p>
+    
+    
+    {%- if page.categories and page.categories.size > 0 -%}
+  <div class="post-categories">
+    {%- for category in page.categories -%}
+      <a
+        class="post-category"
+        href="{{ '/categories/' | relative_url }}#{{ category | slugify }}">
+        {{ category }}
+      </a>
+    {%- endfor -%}
+  </div>
+{%- endif -%}
+    
       
         {%- if page.description -%}
     <p class="post-description" itemprop="description">

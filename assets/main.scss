@@ -477,7 +477,8 @@ Post card content
 
 /* --------------------------------------------------
 Posts
--------------------------------------------------- */
+--------------------------------------------------
+*/
 
 .post {
   max-width: $post-width;
@@ -496,6 +497,43 @@ Posts
   font-size: 0.9rem;
   line-height: 1.65;
   color: $muted-color;
+}
+
+.post-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.post-category {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+
+  color: $runzbuzz-blue;
+  background: rgba($runzbuzz-blue, 0.07);
+
+  border: 1px solid rgba($runzbuzz-blue, 0.2);
+  border-radius: 999px;
+
+  text-decoration: none;
+
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.post-category:hover {
+  color: #fff;
+  background: $runzbuzz-blue;
+  border-color: $runzbuzz-blue;
+  text-decoration: none;
 }
 
 /* --------------------------------------------------
