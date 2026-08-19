@@ -10,36 +10,23 @@ cover: man-laptop-blue-innovation.png
 
 
 
-{% extends "resources/resources-base.html" %}
 
-{% block title %}
 What Is Brand Visibility in AI? — BuzzSense
-{% endblock %}
 
-{% block resource_tag %}AI Visibility{% endblock %}
 
-{% block resource_title %}
+AI Visibility
+
+
+
 What Is Brand Visibility in AI Assistants?
-{% endblock %}
 
-{% block resource_intro %}
+
+
+
 Understand how brands are surfaced, recommended, and cited by AI assistants like ChatGPT and Gemini.
-{% endblock %}
 
 
-{%block next_url%}{%endblock%}
-{%block next_tag%}{%endblock%}
-{%block next_title%}{%endblock%}
-{%block next_desc%}{%endblock%}
 
-
-{%block related_url%} {%endblock%}
-{%block related_tag%}{%endblock%}
-{%block related_title%}{%endblock%}
-{%block related_desc%}{%endblock%}
-
-
-{% block resource_toc %}
 
 
 
@@ -54,10 +41,8 @@ Understand how brands are surfaced, recommended, and cited by AI assistants like
   </ul>
 </div>
 
-{% endblock %}
 
 
-{% block resource_content %}
 
 
 <h1 id="why">Why AI Visibility Matters?</h1>
@@ -227,7 +212,6 @@ per provider, brand, and many other dimensions. </p>
 <!--AI assistants increasingly influence purchasing and decision-making. If your brand is not mentioned,-->
 <!--you effectively don’t exist in those moments.-->
 <!--</p>-->
-<!--{% endblock %}-->
 
 
 
