@@ -218,7 +218,9 @@ Rank:
 
 ### 1.E. AI Security
 
-The security in AI products touches upon different levels. In large organizations, they often has a security team to address the low-level security (e.g., network). Higher levels might be addressed by different teams (e.g., Database Team, AI/Software Team). In smaller organizations, or startups, sometimes several responsibilities are handled by the same team. But in either case, understanding the security level that is being address is very helpful in practice to understand the scope of work required and possibility of success.
+The security in AI products touches upon different levels. In large organizations, they often has a security team to address the low-level security (e.g., network). Higher levels might be addressed by different teams (e.g., Database Team, AI/Software Team). It is also common for the security team to issue a guide that other teams need to follow (e.g., forcing https, hashing passwords, only using approved software, ..., etc.).
+
+ In smaller organizations, or startups, sometimes several responsibilities are handled by the same team. But in either case, understanding the security level that is being address is very helpful in practice to understand the scope of work required and possibility of success.
 
 
 
@@ -239,8 +241,19 @@ Rank:
 
 ## 2. Project
 
+This dimension is about defining the added value of the project, what is expected to achieve via this project, and team who is to carry out this project to delivery this project and acheive the main goal of it.
+
+
 
 ### 2.A. Project Definition 
+
+*What is the main goal of this project?*
+
+Many organizations are tempted to utilize the new hypes without having a clear idea on the aim, which makes it more challenging even for experts. Consultant would often ask what do you want to achieve? Stating that it is an exploratory project isn't wrong per se, it is actually helpful to put a label on it and specify the end result. 
+
+In that way, a limit in resources: time and money, can be set for this exploratory project.  
+
+
 The added value of the project is clearly defined, the success measures are clearly defined, along with the team who are going to work on the project, and the stop/kill switch (when to abandon the project).
 So the dimensions are: 
 
@@ -259,8 +272,17 @@ Rank:
 - 1: None
 
 
-### 2.B. Expected Impact: External confidence of this project success.
-[As report by MIT](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf), GenAI has a high adoption rate, but lower transformation as many organization fail to deliver or make an actualy change. Here is an important metric to evaluate.
+### 2.B. Expected Impact
+
+
+*How this project is going to positively affect the organization?*
+
+
+[As report by MIT](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf), GenAI has a high adoption rate, but lower transformation as many organization fail to deliver or make an actualy change. That is why it is important to set out some expectations and answer the question: *What are we going to gain from this AI project?*
+
+
+<!--
+
 
 Rank:
 
@@ -271,7 +293,7 @@ Rank:
 - 1: No prediction, just exploration. 
 
 
-
+-->
 
 
 
@@ -285,7 +307,7 @@ Here are the dimensions related to people expertises and rules:
 - Technical Knowledge. Someone from a technical background who understands the application of GenAI (e.g., hallucination).
 - Domain Knowledge. Also known as the domain expert. It is someone who understand the section (e.g., legal, finance). 
 - Business Knowledge. Projects has some expected end users that the project will be designed to server. Someone who understands what the end-user expects or a potential end-user withing the departement.
-- Project Lead. Some knowledge in project management is also generally import. But mainly, someone how is the responsible person for the progress of this projects who is communicated with the different parties, including 3rd party. 
+- Project Lead. Some knowledge in project management is also generally import. But mainly, someone who is the responsible person for the progress of this projects who is communicated with the different parties, including 3rd party. 
 
 
 Note that sometimes a single person can have knowledge in more than one area. It is common for the project lead to either have the technical knowledge or the business knowledge. The main thing is the presence of the expertise and not really the number people.
@@ -346,13 +368,30 @@ Rank:
 
 ### 4. Data
 
+According to [DataHub report](https://datahub.com/blog/ai-ready-data/), 87% of organizations reported data readiness is the biggest challenge for production-level AI projects. [Accenture reported 80% of organizations delay or later their AI product due to data-related issues](https://www.accenture.com/us-en/insights/ai-data/ai-ready-data).
+
 
 #### 4.A. Data Governance
 
-This includes the regulations, compliance, and ownership of the data and transformation rules. However, at the project initiation stage, it is important not to go overboard and overcomplicate the project; it can [data governance implemented gradually.](https://telefonicatech.uk/blog/scaling-from-mvp-to-enterprise-level/).
+[It is reported that 72% or the organizations in the study have issues related to quality and governance to support AI products](https://www.accenture.com/us-en/insights/ai-data/ai-ready-data).
 
-(https://www.linkedin.com/pulse/data-governance-product-heres-why-its-game-changer-jens-bonerz-01tje). 
+Data Governance includes regulations, compliance, ownership of the data, and transformation rules. However, at the project initiation stage, it is important not to go overboard and overcomplicate the project; [data governance implemented gradually.](https://telefonicatech.uk/blog/scaling-from-mvp-to-enterprise-level/). While there are many [ideas to help implement data governance](https://www.linkedin.com/pulse/data-governance-product-heres-why-its-game-changer-jens-bonerz-01tje), [identifying roles and responsibilities](https://www.tableau.com/learn/articles/data-governance-best-practices) is a good starting point (as the system is not started yet).
 
+
+We categorize data governance into four area:
+- **Data Source.** The team that is responsible for the data that will be used for the AI product.
+- **Data Processing.** The team responsible for the processing of the data, including transforming the data, integrating them from different sources, and aggregating them.
+- Compliance.  Who is responsible for the regulations and compliance (e.g., [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), [EU GDPR](https://gdpr.eu/what-is-gdpr/), [ISO/IEC 38505-1](https://www.iso.org/standard/87195.html)). 
+- Business Rules. The team responsible for the rules of the business (e.g., where to get the offers for each segment).
+
+
+
+
+<!--
+This includes both, the raw data and the transformed data. 
+ The team responsible for the data from the source that will be used. It can be raw data or manipulated/cleaned data.
+ 
+ 
 - Data Owners. He is responsible for the data being used in the project.
 - Data Processing Owners. Who is responsible for the data processings like transformation, aggregation, and integration. 
 - Compliance Owner. Who is responsible for the regulations and compliance (e.g., [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), [EU GDPR](https://gdpr.eu/what-is-gdpr/), [ISO/IEC 38505-1](https://www.iso.org/standard/87195.html)). 
@@ -366,6 +405,12 @@ Rankings:
 - 3: Two defined
 - 2: One defined
 - 1: None defined
+
+
+ --> 
+
+
+
 
 
 
@@ -390,6 +435,10 @@ Rank:
 
 ### 4.C. Data Availability
 
+Typically the AI products rely on some kind of data, often proprietry. They are rarely ready for AI consumption. Commonly they need to be aggregated, or analytics needs to be computed for performance as well. In some instances, some data needs even be collected and recorded. 
+
+Accenture found out in their analysis that [only 7% their data ready to scale their AI](https://www.accenture.com/us-en/insights/ai-data/ai-ready-data). 
+ 
 
 Rank:
 
