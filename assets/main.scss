@@ -31,20 +31,34 @@ Header
 -------------------------------------------------- 
 */
 
+
+
 .site-header {
   border-top: 5px solid $runzbuzz-blue;
   border-bottom: 1px solid $border-color;
 }
 
+
 .site-title {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
 
   font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: -0.2px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: #737373;
+
+  &:hover,
+  &:visited {
+ 	color: #737373;
+    text-decoration: none;
+  }
+}
+
+.site-title .blog-accent {
+  color: #019FE3;
 }
 
 .site-title:hover {
@@ -54,12 +68,12 @@ Header
 .site-logo {
   display: block;
   width: auto;
-  height: 36px;
+  height: 30px;
   max-height: 36px;
 }
 
-/*
---------------------------------------------------
+
+/* --------------------------------------------------
 About
 --------------------------------------------------
 */
