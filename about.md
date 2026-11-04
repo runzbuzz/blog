@@ -23,12 +23,19 @@ title: About
       </p>
 
       <p class="about-introduction">
+      	
+
+      I am an AI researcher and founder of <a href="https://www.runzbuzz.com/">Runzbuzz</a>, with over 10 years of experience in Artificial Intelligence across academia and industry.
+
+      	<br>            	<br>
+      	
+My journey has taken me from Kuwait to Spain, Germany, the Netherlands, and the United Kingdom. Along the way, I've had the opportunity to work with brilliant people, become involved in the startup ecosystem, and contribute to the development of core AI technologies for several ventures, some of which went on to secure millions in funding.
+      
+      <!--
       
       I have worked as an AI researcher across both academia and industry for several years. My work has taken me to different countries, including Kuwait, Spain, Germany, the Netherlands, and the United Kingdom.
       
       
-      
-      <!--
       
         Runzbuzz Blog is where invited guests and I share our research,
         ideas, experiments, findings, and practical experiences from our
